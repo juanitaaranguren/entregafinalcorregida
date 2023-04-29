@@ -1,0 +1,114 @@
+.about-home
+{
+    background-color: black;
+}
+
+.tercera
+{
+    background-image: url("../IMG/tercera.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    h2 {
+    color: white;
+    background-color: rgb(141, 170, 203);
+    padding-inline: 15px;
+    font-size: 30px;
+    }
+
+    p {
+    color: white;
+    background-color: rgb(141, 170, 203);
+    padding-inline: 15px;
+    font-size: 20px;
+    }
+}
+
+.contenedork
+
+{
+    background-color: #000000;
+
+    .tituloz
+
+    {
+    font-size: 50px;
+    color: rgb(255, 63, 63);
+    text-align: center;
+    justify-content: center;
+    padding: 2cm;
+
+    }
+}
+
+.contenedor-sobre-nosotros
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2cm;
+
+}
+
+.descripcion
+{
+    font-size: 20px;
+    justify-content: space-evenly;
+    color: white;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 2cm;
+
+}
+
+.imagen-nosotros {
+    width: 48%;
+    margin-right: 2cm;
+
+}
+
+.sobre-nosotros {
+
+    .contenido.textos
+    { width: 48%;
+        color: white;
+
+        h3 {margin-bottom: 60x;
+            color: rgb(255, 63, 63);
+            margin-top: 2cm;
+        }
+        span {
+            background: rgb(255, 63, 63);
+            color: rgb(255, 255, 255);
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            width: 40px;
+            height: 40px;
+            padding: 2px;
+            box-shadow: 0 0 6px rgb(230, 204, 255) (0,0, 0, .5);
+            margin-right: 5px;
+        }
+
+        p {
+        padding: 0px 0px 50px 50x;
+         font-weight: 300;
+        text-align: justify;
+        color: white;
+        margin-right: 2cm;
+        }
+
+        }
+
+    }
+
+
+
+
+

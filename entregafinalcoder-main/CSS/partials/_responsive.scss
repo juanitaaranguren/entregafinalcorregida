@@ -1,0 +1,113 @@
+@media screen and (max-width: 900px)
+{
+    header {
+    background-position: center;
+    }
+
+    .contenedor-sobre-nosotros{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .sobre-nosotros {
+        .contenido-textos{width: 90%; }
+        }
+    .imagen-nosotros {
+            width: 90%;
+            }
+    .imagen-port{
+                width: 44%;
+                }
+    .titulo {
+                    width: 380px;
+                }
+    .servicio-ind
+    {
+        .titulocifras
+        { 
+        width: 300px;
+        border-top: 2cm;
+        }
+
+    }
+
+    .servicio-cont 
+    {
+   
+   flex-direction: column;
+   max-width: 100px;
+
+   .imz {
+
+    width: 300px;
+    justify-content: center;
+    justify-items: center;
+   
+       
+    }   
+
+    p {
+    
+        width: 9cm;
+        display: flex;
+        justify-content: center;
+        text-align: center center;
+     }
+    
+    
+   
+    }
+
+    .servicio-ind
+    {
+    padding: 20px;}
+    
+    .imz {
+    width: 10px;}
+
+    .imagensecundaria 
+    {
+       h2 {
+        font-size: 20px;
+       } 
+    }
+
+    .tercera 
+    {
+       h2 {
+        font-size: 20px;
+       } 
+    }
+
+    .cards
+{
+    flex-direction: column;
+    .card {
+    width: 300%;
+    margin-top: 2cm;
+
+    p {
+    width: 100%;   
+    }
+
+    }
+    
+}
+
+   /* Media Queries */
+  
+   @media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+  }
+}
+
